@@ -24,7 +24,7 @@ export default function NavBar({ isDarkTheme, setIsDarkTheme }) {
         <div className="collapse navbar-collapse navbar-links-div" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             {navLinks.map((ele, i) => (
-              <NavLink key={i} title={ele} href={"#" + ele} setIsCollapsed={setIsCollapsed} />
+              <NavLink key={i} title={ele} href={"Portfolio/#" + ele} setIsCollapsed={setIsCollapsed} />
             ))}
           </ul>
         </div>
