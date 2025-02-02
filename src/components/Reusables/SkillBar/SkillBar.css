@@ -1,0 +1,21 @@
+.skillbar-main-div {
+  width: 7rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skillbar-img {
+  width: 55%;
+}
+
+.skillbar-title {
+  color: var(--dark);
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.skillbar-value {
+  color: var(--secondary);
+}

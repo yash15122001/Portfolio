@@ -1,0 +1,15 @@
+.outline-p-theme-button {
+  border-radius: 2rem !important;
+  padding: 0.6rem 1.5rem !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  background-color: transparent !important;
+}
+
+.outline-p-theme-button:hover,
+.outline-p-theme-button:active,
+.outline-p-theme-button:focus {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border-color: var(--primary) !important;
+}

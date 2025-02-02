@@ -1,0 +1,9 @@
+.contact-me-main-div {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .contact-me-main-div {
+    padding: 0 20vh;
+  }
+}

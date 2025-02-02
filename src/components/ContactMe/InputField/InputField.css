@@ -1,0 +1,31 @@
+.floating-label {
+  text-transform: capitalize;
+}
+
+.floating-label label {
+  margin-left: 0.75rem !important;
+  color: var(--dark);
+}
+
+.contact-us-ip {
+  border-radius: 2rem !important;
+  font-size: 1.1rem !important;
+  padding: 2rem 1.5rem 0.75rem !important;
+  background-color: var(--light) !important;
+  color: var(--dark) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact-us-ip:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid var(--primary) !important;
+}
+
+.contact-us-ip::placeholder {
+  text-transform: capitalize;
+}
+
+textarea.contact-us-ip {
+  min-height: 17.5rem !important;
+}

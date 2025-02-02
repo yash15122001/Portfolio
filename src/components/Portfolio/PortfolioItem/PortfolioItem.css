@@ -1,0 +1,67 @@
+.portfolio-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: left;
+  margin-bottom: 1rem;
+  border: 1px solid var(--secondary);
+}
+
+.portfolio-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--dark);
+  text-align: center;
+}
+
+.tech-stack-icons-div {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack-buttons-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-stack-icon {
+  height: 2rem;
+  margin: 0 0.2rem;
+}
+
+.portfolio-img-container {
+  position: relative;
+}
+
+.portfolio-img-overlay-redirect-icon {
+  color: var(--light);
+  font-size: 0;
+  opacity: 0;
+  transition: 0.3s font-size, 0.3s opacity;
+}
+
+.portfolio-img-div-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary);
+  width: 0;
+  aspect-ratio: 4/3;
+  transition: 0.3s width;
+  cursor: pointer;
+}
+
+.portfolio-img-container:hover .portfolio-img-div-overlay {
+  width: 75%;
+}
+
+.portfolio-img-container:hover .portfolio-img-overlay-redirect-icon {
+  font-size: 2rem;
+  opacity: 1;
+}

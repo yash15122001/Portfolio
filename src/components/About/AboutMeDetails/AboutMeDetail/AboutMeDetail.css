@@ -1,0 +1,20 @@
+.aboutme-detail-key {
+  color: var(--dark);
+  font-size: 1rem !important;
+}
+
+.aboutme-detail-value {
+  color: var(--secondary);
+  font-size: 1rem !important;
+}
+
+.aboutme-social-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+  .aboutme-social-buttons-container {
+    width: 50%;
+  }
+}

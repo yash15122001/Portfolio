@@ -1,0 +1,50 @@
+:root {
+  --primary: #32c0e7;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #fff;
+  --dark: #343a40;
+  --text-stroke: #dee2e6;
+  --skill-bar-secondary: var(--secondary);
+  --loading-screen-opacity: 0;
+}
+
+.background-animated-svg-blocks {
+  position: fixed;
+  height: 100vh;
+  z-index: 5;
+  opacity: 0.3;
+}
+
+.site-main {
+  position: relative;
+  z-index: 10;
+}
+
+.app {
+  position: relative;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: Roboto !important;
+  background-color: var(--light) !important;
+}
+
+.custom-dark-col-header {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: var(--dark);
+}
+
+* {
+  transition: 0.3s color, 0.3s background-color;
+}

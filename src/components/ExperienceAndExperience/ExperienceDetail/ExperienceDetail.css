@@ -1,0 +1,44 @@
+.experience-detail-master-div {
+  padding: 1rem 0 0 0;
+  border-left: 1px solid var(--primary);
+  position: relative;
+}
+
+.experience-detail-div {
+  color: var(--secondary);
+  display: inline-block;
+  margin-left: 1.3rem;
+}
+
+.experience-detail-title {
+  font-size: 1.25rem;
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.experience-detail-circle-dot {
+  position: absolute;
+  top: 1.3rem;
+  left: -0.5rem;
+}
+
+.experience-detail-university {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.experience-detail-university:hover {
+  color: #7ee3ff;
+}
+
+.experience-detail-timeline {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.experience-detail-description {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+}

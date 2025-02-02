@@ -1,0 +1,14 @@
+.footer-main-div {
+  background-color: var(--primary);
+  min-height: 10rem;
+  margin-top: 10rem;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}

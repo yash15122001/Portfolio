@@ -1,0 +1,45 @@
+.landing-main-div {
+  background-color: var(--primary);
+  height: 100vh;
+  color: white;
+  padding: 5rem 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-details-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.landing-page-im {
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+.landing-page-name {
+  font-weight: 700;
+  font-size: calc(1.7rem + 4vw);
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0rem;
+}
+
+.landing-type-animation-div {
+  margin-bottom: calc(2rem + 3vh);
+  font-size: calc(1.3rem + 1.2vw);
+  font-weight: 300;
+}
+
+.landing-pfp {
+  width: calc(10rem + 22vw);
+}
+
+@media (max-width: 992px) {
+  .landing-details-div {
+    text-align: center;
+  }
+}
