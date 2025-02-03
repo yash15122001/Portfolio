@@ -26,7 +26,7 @@ export default function LandingPage({ name, roles }) {
             <TypeAnimation className="landing-type-animation-div" sequence={roles} wrapper="p" repeat={Infinity} />
 
             <div>
-              <OutlineThemeButton href="/Portfolio/resume.pdf">Download Resume</OutlineThemeButton>
+              <OutlineThemeButton href="/resume.pdf">Download Resume</OutlineThemeButton>
             </div>
           </div>
         </Col>
