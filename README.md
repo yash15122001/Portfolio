@@ -3,6 +3,8 @@
 
 This is the portfolio website of Yash Nimbalkar, which showcases my skills, experience, projects, and certifications.
 
+🚀 **Live Demo:** [yash-nimbalkar.web.app](https://yash-nimbalkar.web.app/)
+
 ## Sections
 
 The portfolio includes the following sections:
@@ -20,6 +22,7 @@ The portfolio includes the following sections:
 - **Frontend**: ReactJS
 - **Styling**: CSS (with animations)
 - **Others**: React Router for navigation, EmailJS integration
+- **Deployment Platform**: Firebase Hosting
 
 ## How to Run
 
