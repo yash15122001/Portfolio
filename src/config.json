@@ -41,9 +41,16 @@
 
   "experience": [
     {
+      "title": "Senior Software Engineer",
+      "university": "Searce Inc.",
+      "timeline": "Oct 2025 - Present",
+      "description": "As a Senior Software Engineer, I lead development and optimization of scalable software solutions while mentoring team members & ensuring high-quality deliverables aligned with business goals.",
+      "university_link":"https://www.searce.com/"
+    },
+    {
       "title": "Software Engineer",
       "university": "Searce Inc.",
-      "timeline": "Jul 2023 - Present",
+      "timeline": "Jul 2023 - Oct 2025",
       "description": "As a Software Engineer, I was responsible for designing, developing, testing, deploying, and maintaining software solutions tailored to client needs.",
       "university_link":"https://www.searce.com/"
     },
@@ -142,7 +149,7 @@
       {
         "title": "GoLang",
         "imageLink": "skill_icons/golang.png",
-        "value": 6,
+        "value": 7,
         "color": "#00acd7"
       }
     ],
